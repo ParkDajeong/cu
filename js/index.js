@@ -50,3 +50,10 @@ const brandSlide = new Swiper(".brand-banner", {
     renderBullet: (i, className) => `<span class=${className} role="button" aria-label="${i + 1}번 슬라이드로 이동"></span>`
   },
 });
+
+const btnGnb = document.querySelector(".btn-gnb");
+const btnGnbClose = document.querySelector(".btn-gnb-close");
+const gnb = document.querySelector(".all-menu .menu-wrap");
+
+btnGnb.addEventListener("click", () => gnb.classList.add("on"));
+btnGnbClose.addEventListener("click", () => gnb.classList.remove("on"));
