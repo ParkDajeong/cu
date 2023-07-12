@@ -3,7 +3,6 @@
   --main-color-green: #37d243;
 }
 
-/* https://wit.nts-corp.com/2020/06/05/6134 */
 @keyframes arrowAni {
   50% {
     transform: translateX(130%) rotate(45deg);

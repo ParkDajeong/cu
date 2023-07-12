@@ -335,10 +335,6 @@ header .inner {
 }
 
 /* ===== Main ===== */
-main {
-
-}
-
 .slide-sec {
   position: relative;
 }
@@ -379,7 +375,6 @@ main {
 }
 
 /* Event Section */
-/* TODO: 슬라이드 구현 */
 .event-sec {
   height: 392px;
   margin-bottom: 160px;
@@ -410,7 +405,6 @@ main {
 }
 
 /* Issue Section */
-/* TODO: 슬라이드 구현 */
 .issue-sec {
   margin-bottom: 160px;
 }
@@ -420,12 +414,6 @@ main {
   max-width: 1220px;
   margin: 0 auto;
   /* overflow: hidden; */
-}
-
-.issue-banner {
-  /* max-width: 1210px;
-  margin: 0 auto;
-  overflow: visible; */
 }
 
 .issue-sec .swiper-slide {
@@ -546,7 +534,6 @@ main {
 }
 
 .plus-sec .navigation-box {
-  /* FIX: 추후 수정 */
   display: none;
 }
 
@@ -761,7 +748,6 @@ main {
 
 .store-sec .sec-cont::after {
   content: url(../assets/main/img_cu_store.png);
-  /* background: url(../assets/main/img_cu_store.png) no-repeat right bottom; */
 }
 
 .store-sec .cont-wrap {
@@ -870,7 +856,6 @@ main {
   line-height: 1.4;
 }
 
-
 /* ===== Footer ===== */
 footer {
   background-color: #f0f0f0;
@@ -887,7 +872,6 @@ footer .container {
 }
 
 .footer-info {
-  /* flex-basis: 55%; */
   padding-right: 215px;
 }
 

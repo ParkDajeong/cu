@@ -1,5 +1,3 @@
-// FIX: 나중에 중복된 코드 합치기 !!!!!!!!!!!!
-
 const eventSlide = new Swiper(".event-banner", {
   loop: true,
   slidesPerView: "2.5",
