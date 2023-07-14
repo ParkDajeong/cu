@@ -1,5 +1,5 @@
 body {
-  overflow-x: hidden;
+  /* overflow-x: hidden; */
 }
 
 /* ===== Header ===== */
@@ -26,13 +26,23 @@ header .inner {
 }
 
 /* GNB */
+.gnb {
+  width: 100%;
+}
+
+.menu {
+  justify-content: center;
+}
+
 .menu-item {
   position: relative;
-  width: 150px;
+  max-width: 150px;
+  width: 100%;
 }
 
 .menu-link {
   padding: 37px 0 38px;
+  font-size: 20px;
   text-align: center;
 }
 
@@ -394,14 +404,17 @@ header .inner {
 
 /* Event Section */
 .event-sec {
-  height: 392px;
   margin-bottom: 160px;
   overflow: hidden;
 }
 
 .event-banner .swiper-slide {
-  width: 33.3333%;
-  padding: 0 25px;
+  width: fit-content;
+  padding: 0 20px;
+}
+
+.event-banner .swiper-slide > a {
+  max-width: 685px;
 }
 
 .event-banner .navigation-box {
@@ -431,7 +444,6 @@ header .inner {
   position: relative;
   max-width: 1220px;
   margin: 0 auto;
-  /* overflow: hidden; */
 }
 
 .issue-sec .swiper-slide {
@@ -441,6 +453,10 @@ header .inner {
 .tag.new {
   top: 20px;
   right: 20px;
+}
+
+.tag.new img {
+  width: 100%;
 }
 
 .issue-sec .navigation-box {
@@ -503,6 +519,11 @@ header .inner {
 
 .app-sec .text-tit {
   padding: 25px 0 14px;
+  font-size: 36px;
+}
+
+.app-sec .text-desc {
+  font-size: 20px;
 }
 
 .app-button {

@@ -1,7 +1,13 @@
 const eventSlide = new Swiper(".event-banner", {
   loop: true,
-  slidesPerView: "2.5",
+  slidesPerView: 1, 
   centeredSlides: true,
+  breakpoints: {
+    1280: {
+      slidesPerView: "auto",
+      spaceBetween: 10,
+    }
+  },
   pagination: {
     el: ".swiper-pagination",
     clickable: true,
@@ -15,8 +21,14 @@ const eventSlide = new Swiper(".event-banner", {
 
 const isuueSlide = new Swiper(".issue-banner", {
   loop: true,
-  slidesPerView: 5,
-  slidesPerGroup: 5, 
+  slidesPerView: 4,
+  slidesPerGroup: 4,
+  breakpoints: {
+    1280: {
+      slidesPerView: 5,
+      slidesPerGroup: 5,
+    },
+  },
   pagination: {
     el: ".swiper-pagination",
     clickable: true,

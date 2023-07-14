@@ -241,6 +241,7 @@
 
 .swiper-pagination {
   position: relative;
+  bottom: 0 !important;
 }
 
 .swiper-pagination-bullet {
@@ -282,7 +283,6 @@
 }
 
 .card-img {
-  height: 200px;
   overflow: hidden;
 }
 
@@ -311,9 +311,14 @@
 .card-tit {
   display: inline-block;
   height: 41px;
+  font-size: 18px;
 }
 
 .card-text .price {
+  font-size: 20px;
+}
+
+.card-text .price-num {
   margin-right: 3px;
   font-family: Roboto, sans-serif;
   font-size: 24px;

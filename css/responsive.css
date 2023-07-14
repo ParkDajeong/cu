@@ -1,0 +1,120 @@
+@media screen and (max-width: 1280px) {
+  /* ===== COMMON ===== */
+  .card {
+    max-width: 25%;
+    height: auto;
+  }
+
+  .card:hover {
+    background: none;
+    padding: 0;
+  }
+
+  .card-cont {
+    position: static;
+    padding: 16px 10px;
+  }
+
+  .card-img .slide-img {
+    max-width: 141px;
+  }
+
+  .card:hover .slide-img {
+    transform: none;
+  }
+
+  .card-tit {
+    max-height: 37px;
+    font-size: 15px;
+  }
+
+  .card-text .price {
+    font-size: 14px;
+  }
+  
+  .card-text .price-num {
+    font-size: 18px;
+  }
+  
+  /* ===== HEADER ===== */
+  header .inner {
+    padding: 0 20px;
+  }
+
+  .menu-item {
+    width: fit-content;
+  }
+
+  .menu-link {
+    padding: 38px 12px 37px;
+    font-size: 18px;
+  }
+
+  /* ===== MAIN ===== */
+  main section {
+    margin-bottom: 140px;
+  }
+
+  /* event section */
+  .event-banner .swiper-slide > a {
+    max-width: 100%;
+  }
+
+  .event-banner .navigation-box {
+    width: 100%;
+  }
+
+  .event-banner .swiper-button-next {
+    right: 10px;
+  }
+  
+  .event-banner .swiper-button-prev {
+    left: 10px;
+  }
+
+  /* issue section */
+  .issue-banner {
+    margin: 0 -7px;
+  }
+
+  .issue-sec .swiper-slide {
+    margin: 0;
+    padding: 0 7px;
+  }
+
+  .tag.new {
+    top: 12px;
+    right: 18px;
+    width: 31px;
+    height: 31px;
+  }
+
+  .issue-sec .swiper-button-next {
+    right: -5px;
+  }
+
+  .issue-sec .swiper-button-prev {
+    left: -5px;
+  }
+
+  /* app section */
+  .app-sec {
+    padding: 0 20px;
+  }
+
+  .app-sec .sec-cont {
+    padding: 33px 20px;
+  }
+
+  .app-sec .text-box {
+    padding: 0;
+  }
+
+  .app-sec .text-tit {
+    font-size: 27px;
+  }
+  
+  .app-sec .text-desc {
+    font-size: 15px;
+  }
+}
