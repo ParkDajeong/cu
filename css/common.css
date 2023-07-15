@@ -84,6 +84,7 @@
 
 .view-more .link-text {
   position: relative;
+  font-size: 18px;
   font-weight: 700;
 }
 
@@ -259,6 +260,7 @@
   max-width: 224px;
   max-height: 340px;
   height: 340px;
+  margin: 0 10px;
   border-radius: 22px;
   transition: padding .3s ease-in-out;
 }
