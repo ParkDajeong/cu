@@ -1,3 +1,7 @@
+const navSlide = new Swiper(".gnb", {
+  slidesPerView: "auto",
+});
+
 const eventSlide = new Swiper(".event-banner", {
   loop: true,
   slidesPerView: 1,
@@ -51,6 +55,10 @@ const isuueSlide = new Swiper(".issue-banner", {
       slidesPerView: 5,
       slidesPerGroup: 5,
     },
+    767: {
+      slidesPerView: 4,
+      slidesPerGroup: 4,
+    },
   },
 });
 
@@ -89,5 +97,5 @@ const btnGnb = document.querySelector(".btn-gnb");
 const btnGnbClose = document.querySelector(".btn-gnb-close");
 const gnb = document.querySelector(".all-menu .menu-wrap");
 
-btnGnb.addEventListener("click", () => gnb.classList.add("on"));
+// btnGnb.addEventListener("click", () => gnb.classList.add("on"));
 btnGnbClose.addEventListener("click", () => gnb.classList.remove("on"));

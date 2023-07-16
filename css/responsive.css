@@ -77,6 +77,10 @@
     font-size: 18px;
   }
 
+  .menu-item:hover .sub-menu {
+    display: none;
+  }
+
   /* ===== MAIN ===== */
   .main-sec {
     margin-bottom: 140px;
@@ -300,6 +304,11 @@
     font-size: 13px;
   }
 
+  .view-more .icon-circle {
+    width: 16px;
+    height: 16px;
+  }
+
   .swiper-grid-column>.swiper-wrapper {
     flex-direction: row;
   }
@@ -375,6 +384,7 @@
 
   .menu {
     justify-content: flex-start;
+    touch-action: pan-x;
   }
 
   .menu-link {
@@ -397,6 +407,20 @@
     right: 0;
   }
 
+  .all-menu {
+    position: relative;
+    top: 9px;
+    right: 10px;
+  }
+
+  .btn-gnb {
+    padding: 10px;
+  }
+
+  .btn-gnb img {
+    width: 20px;
+  }
+
   /* ===== MAIN ===== */
   main {
     display: flex;
@@ -417,9 +441,31 @@
     margin: 0;
   }
 
+  .visual-sec .container {
+    padding: 0 20px;
+  }
+
+  .cu-welcome.pc {
+    display: none;
+  }
+
+  .cu-welcome.mb {
+    display: block;
+    max-width: 148px;
+  }
+
+  .cu-character {
+    max-width: 114px;
+  }
+
+  .visual-sec .btn-wrap {
+    bottom: auto;
+  }
+
   /* event section */
   .event-sec {
     order: 2;
+    margin-top: 20px;
   }
 
   .event-banner .swiper-wrapper {
@@ -653,7 +699,11 @@
   }
 
   .store-sec .sec-cont::after {
-    /* background-size: contain; */
+    background-position: center;
+    background-size: contain;
+    margin: 40px 0 0 37px;
+    padding: 0;
+    height: 241px;
   }
 
   .store-sec .cont-wrap {

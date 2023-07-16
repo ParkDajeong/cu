@@ -27,10 +27,10 @@
         <h1 class="logo">
           <a href="#"><img src="assets/logo.png" alt="CU"></a>
         </h1>
-        <nav class="gnb">
+        <nav class="gnb swiper">
           <h2 class="blind">주메뉴</h2>
-          <ul class="menu flex-box">
-            <li class="menu-item">
+          <ul class="menu flex-box swiper-wrapper">
+            <li class="menu-item swiper-slide">
               <a href="#" class="menu-link fw-bold">CU소개</a>
               <ul class="sub-menu round-16 fz-18">
                 <li class="sub-menu-item">
@@ -44,7 +44,7 @@
                 </li>
               </ul> <!-- //sub-menu -->
             </li> <!-- //menu-item -->
-            <li class="menu-item">
+            <li class="menu-item swiper-slide">
               <a href="#" class="menu-link fw-bold">상품·서비스</a>
               <ul class="sub-menu round-16 fz-18">
                 <li class="sub-menu-item">
@@ -64,10 +64,10 @@
                 </li>
               </ul> <!-- //sub-menu -->
             </li> <!-- //menu-item -->
-            <li class="menu-item">
+            <li class="menu-item swiper-slide">
               <a href="#" class="menu-link fw-bold">매장안내</a>
             </li> <!-- //menu-item -->
-            <li class="menu-item">
+            <li class="menu-item swiper-slide">
               <a href="#" class="menu-link fw-bold">멤버십</a>
               <ul class="sub-menu round-16 fz-18">
                 <li class="sub-menu-item">
@@ -78,7 +78,7 @@
                 </li>
               </ul> <!-- //sub-menu -->
             </li> <!-- //menu-item -->
-            <li class="menu-item">
+            <li class="menu-item swiper-slide">
               <a href="#" class="menu-link fw-bold">창업·상생</a>
               <ul class="sub-menu round-16 fz-18">
                 <li class="sub-menu-item">
@@ -101,7 +101,7 @@
                 </li>
               </ul> <!-- //sub-menu -->
             </li> <!-- //menu-item -->
-            <li class="menu-item">
+            <li class="menu-item swiper-slide">
               <a href="#" class="menu-link fw-bold">입점상담</a>
               <ul class="sub-menu round-16 fz-18">
                 <li class="sub-menu-item">
@@ -118,7 +118,7 @@
                 </li>
               </ul> <!-- //sub-menu -->
             </li> <!-- //menu-item -->
-            <li class="menu-item">
+            <li class="menu-item swiper-slide">
               <a href="#" class="menu-link fw-bold">새로운소식</a>
               <ul class="sub-menu round-16 fz-18">
                 <li class="sub-menu-item">
@@ -300,9 +300,14 @@
       <div class="container">
         <h2 class="blind">메인 배너</h2>
         <div class="sec-cont">
-          <div class="img-box flex-box">
-            <img src="assets/main/main_visual_logo_text_pc.png" alt="hello ,friends">
-            <img src="assets/main/main_visual_illu.png" alt="">
+          <div class="visual flex-box">
+            <picture class="img-box">
+              <img src="assets/main/main_visual_logo_text_pc.png" class="cu-welcome pc" alt="hello ,friends">
+              <img src="assets/main/main_visual_logo_text_mo.png" class="cu-welcome mb" alt="hello ,friends">
+            </picture>
+            <div class="img-box">
+              <img src="assets/main/main_visual_illu.png" class="cu-character" alt="">
+            </div>
           </div>
           <div class="btn-wrap">
             <a href="#" class="view-more flex-box">

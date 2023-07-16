@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+body {
+  overflow-x: hidden;
+}
+
 body, input, textarea, button, label {
   font-family: 'Noto Sans KR', sans-serif;
   font-size: 16px;
